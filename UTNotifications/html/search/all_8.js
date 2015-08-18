@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['postlocalnotification',['PostLocalNotification',['../class_u_t_notifications_1_1_manager.html#a50797707bff75a60d04ba8185e2e02b0',1,'UTNotifications::Manager']]],
-  ['pushnotificator',['PushNotificator',['../class_demo_server_1_1_push_notificator.html',1,'DemoServer']]]
+  ['m_5fwebserveraddress',['m_webServerAddress',['../class_u_t_notifications_1_1_sample_u_i.html#a15977c2a197cbeeab1a36bf6bd1d2a02',1,'UTNotifications::SampleUI']]],
+  ['manager',['Manager',['../class_u_t_notifications_1_1_manager.html',1,'UTNotifications']]]
 ];

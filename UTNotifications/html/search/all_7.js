@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['ongui',['OnGUI',['../class_u_t_notifications_1_1_sample_u_i.html#a03011eb9ad44008b65d805eea508e0a9',1,'UTNotifications::SampleUI']]],
-  ['onnotificationsreceived',['OnNotificationsReceived',['../class_u_t_notifications_1_1_manager.html#aff9bd679b8602eded21c9624469dd17a',1,'UTNotifications.Manager.OnNotificationsReceived()'],['../class_u_t_notifications_1_1_sample_u_i.html#ab6e5c6265271f1d8c4a0dc0259ab2097',1,'UTNotifications.SampleUI.OnNotificationsReceived()']]],
-  ['onsendregistrationid',['OnSendRegistrationId',['../class_u_t_notifications_1_1_manager.html#ae1319ffdbcea5c50c02e3bb014fc3b1d',1,'UTNotifications::Manager']]]
+  ['id',['id',['../class_u_t_notifications_1_1_received_notification.html#ae6263daa88e1de7ab44622781f2e032f',1,'UTNotifications::ReceivedNotification']]],
+  ['incrementbadge',['IncrementBadge',['../class_u_t_notifications_1_1_sample_u_i.html#a3d6602439681b90f68e56df06d75d16a',1,'UTNotifications::SampleUI']]],
+  ['initialize',['Initialize',['../class_u_t_notifications_1_1_manager.html#a8cedc2add31837e085f557d6f012c9e4',1,'UTNotifications.Manager.Initialize()'],['../class_u_t_notifications_1_1_sample_u_i.html#a7e68dc5a437541acc1198020f60051c3',1,'UTNotifications.SampleUI.Initialize()']]],
+  ['instance',['Instance',['../class_u_t_notifications_1_1_manager.html#a2ad2b4734f154254a8515e08da4cd66d',1,'UTNotifications::Manager']]]
 ];

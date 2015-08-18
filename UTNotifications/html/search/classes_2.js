@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pushnotificator',['PushNotificator',['../class_demo_server_1_1_push_notificator.html',1,'DemoServer']]]
+  ['notificationprofile',['NotificationProfile',['../struct_u_t_notifications_1_1_settings_1_1_notification_profile.html',1,'UTNotifications::Settings']]]
 ];

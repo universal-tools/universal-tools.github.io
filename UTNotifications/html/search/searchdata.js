@@ -1,12 +1,14 @@
 var indexSectionsWithContent =
 {
-  0: "_cghimnoprstu",
-  1: "hmprs",
+  0: "_abcfghimnoprstu",
+  1: "hmnprs",
   2: "u",
   3: "_cghinops",
-  4: "imtu",
-  5: "i",
-  6: "o"
+  4: "imntu",
+  5: "n",
+  6: "abfn",
+  7: "i",
+  8: "o"
 };
 
 var indexSectionNames =
@@ -16,8 +18,10 @@ var indexSectionNames =
   2: "namespaces",
   3: "functions",
   4: "variables",
-  5: "properties",
-  6: "events"
+  5: "enums",
+  6: "enumvalues",
+  7: "properties",
+  8: "events"
 };
 
 var indexSectionLabels =
@@ -27,7 +31,9 @@ var indexSectionLabels =
   2: "Namespaces",
   3: "Functions",
   4: "Variables",
-  5: "Properties",
-  6: "Events"
+  5: "Enumerations",
+  6: "Enumerator",
+  7: "Properties",
+  8: "Events"
 };
 

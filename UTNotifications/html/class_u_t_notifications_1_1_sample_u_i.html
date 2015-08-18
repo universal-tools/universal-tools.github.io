@@ -22,9 +22,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="UTNotificationsLogo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">UTNotifications
+   &#160;<span id="projectnumber">1.3</span>
    </div>
+   <div id="projectbrief">Professional Cross Platform Push Notifications and More</div>
   </td>
  </tr>
  </tbody>
@@ -98,8 +101,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>The sample showing how to use different <code><a class="el" href="namespace_u_t_notifications.html">UTNotifications</a></code> features.  
  <a href="class_u_t_notifications_1_1_sample_u_i.html#details">More...</a></p>
-
-<p>Inherits MonoBehaviour.</p>
+<div class="dynheader">
+Inheritance diagram for UTNotifications.SampleUI:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_u_t_notifications_1_1_sample_u_i.png" usemap="#UTNotifications.SampleUI_map" alt=""/>
+  <map id="UTNotifications.SampleUI_map" name="UTNotifications.SampleUI_map">
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -146,18 +155,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:acc784a855500f2fe3b513e3d913dec13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends the received push notifications registrationId to the demo server  <a href="#acc784a855500f2fe3b513e3d913dec13">More...</a><br /></td></tr>
 <tr class="separator:acc784a855500f2fe3b513e3d913dec13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a6baac0406b8a3f36c53341bc1150de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a6a6baac0406b8a3f36c53341bc1150de">NotifyAll</a> ()</td></tr>
-<tr class="memdesc:a6a6baac0406b8a3f36c53341bc1150de"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper for the&lt;c&gt;<a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a69e90bc7f3a9b92e495d04f0c790c7b2" title="Requests the demo server to notify all the registered devices with push notifications. ">NotifyAll(string, string)</a> coroutine.  <a href="#a6a6baac0406b8a3f36c53341bc1150de">More...</a><br /></td></tr>
+<tr class="memdesc:a6a6baac0406b8a3f36c53341bc1150de"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper for the&lt;c&gt;NotifyAll(string, string) coroutine.  <a href="#a6a6baac0406b8a3f36c53341bc1150de">More...</a><br /></td></tr>
 <tr class="separator:a6a6baac0406b8a3f36c53341bc1150de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e90bc7f3a9b92e495d04f0c790c7b2"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a69e90bc7f3a9b92e495d04f0c790c7b2">NotifyAll</a> (string title, string text)</td></tr>
-<tr class="memdesc:a69e90bc7f3a9b92e495d04f0c790c7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the demo server to notify all the registered devices with push notifications.  <a href="#a69e90bc7f3a9b92e495d04f0c790c7b2">More...</a><br /></td></tr>
-<tr class="separator:a69e90bc7f3a9b92e495d04f0c790c7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e5c6265271f1d8c4a0dc0259ab2097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#ab6e5c6265271f1d8c4a0dc0259ab2097">OnNotificationsReceived</a> (IList&lt; <a class="el" href="class_u_t_notifications_1_1_received_notification.html">ReceivedNotification</a> &gt; receivedNotifications)</td></tr>
-<tr class="memdesc:ab6e5c6265271f1d8c4a0dc0259ab2097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the received notifications.  <a href="#ab6e5c6265271f1d8c4a0dc0259ab2097">More...</a><br /></td></tr>
-<tr class="separator:ab6e5c6265271f1d8c4a0dc0259ab2097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2300731f752ca040dd2c13e255009ea3"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a2300731f752ca040dd2c13e255009ea3">NotifyAll</a> (string title, string text, string notificationProfile)</td></tr>
+<tr class="memdesc:a2300731f752ca040dd2c13e255009ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the demo server to notify all the registered devices with push notifications.  <a href="#a2300731f752ca040dd2c13e255009ea3">More...</a><br /></td></tr>
+<tr class="separator:a2300731f752ca040dd2c13e255009ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55cebe83323ec1516b5ac3a77d4b0db8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a55cebe83323ec1516b5ac3a77d4b0db8">OnNotificationsReceived</a> (IList&lt; <a class="el" href="class_u_t_notifications_1_1_received_notification.html">UTNotifications.ReceivedNotification</a> &gt; receivedNotifications)</td></tr>
+<tr class="memdesc:a55cebe83323ec1516b5ac3a77d4b0db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the received notifications.  <a href="#a55cebe83323ec1516b5ac3a77d4b0db8">More...</a><br /></td></tr>
+<tr class="separator:a55cebe83323ec1516b5ac3a77d4b0db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a15977c2a197cbeeab1a36bf6bd1d2a02"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a15977c2a197cbeeab1a36bf6bd1d2a02">m_webServerAddress</a> = m_webServerAddressDefault</td></tr>
+<tr class="memitem:a15977c2a197cbeeab1a36bf6bd1d2a02"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a15977c2a197cbeeab1a36bf6bd1d2a02">m_webServerAddress</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a15977c2a197cbeeab1a36bf6bd1d2a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Address of the running demo server. You can replace the default value by your demo server address (f.e. <code>"http://192.168.2.102:8080"</code>).  <a href="#a15977c2a197cbeeab1a36bf6bd1d2a02">More...</a><br /></td></tr>
 <tr class="separator:a15977c2a197cbeeab1a36bf6bd1d2a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67a84dea88e7290146a5d093d945ec6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67a84dea88e7290146a5d093d945ec6e"></a>
@@ -431,11 +440,11 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
 </table>
 </div><div class="memdoc">
 
-<p>A wrapper for the&lt;c&gt;<a class="el" href="class_u_t_notifications_1_1_sample_u_i.html#a69e90bc7f3a9b92e495d04f0c790c7b2" title="Requests the demo server to notify all the registered devices with push notifications. ">NotifyAll(string, string)</a> coroutine. </p>
+<p>A wrapper for the&lt;c&gt;NotifyAll(string, string) coroutine. </p>
 
 </div>
 </div>
-<a class="anchor" id="a69e90bc7f3a9b92e495d04f0c790c7b2"></a>
+<a class="anchor" id="a2300731f752ca040dd2c13e255009ea3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -452,7 +461,13 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>text</em>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>notificationProfile</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -488,7 +503,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
 
 </div>
 </div>
-<a class="anchor" id="ab6e5c6265271f1d8c4a0dc0259ab2097"></a>
+<a class="anchor" id="a55cebe83323ec1516b5ac3a77d4b0db8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -498,7 +513,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
         <tr>
           <td class="memname">void UTNotifications.SampleUI.OnNotificationsReceived </td>
           <td>(</td>
-          <td class="paramtype">IList&lt; <a class="el" href="class_u_t_notifications_1_1_received_notification.html">ReceivedNotification</a> &gt;&#160;</td>
+          <td class="paramtype">IList&lt; <a class="el" href="class_u_t_notifications_1_1_received_notification.html">UTNotifications.ReceivedNotification</a> &gt;&#160;</td>
           <td class="paramname"><em>receivedNotifications</em></td><td>)</td>
           <td></td>
         </tr>
@@ -602,7 +617,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string UTNotifications.SampleUI.m_webServerAddress = m_webServerAddressDefault</td>
+          <td class="memname">string UTNotifications.SampleUI.m_webServerAddress = &quot;&quot;</td>
         </tr>
       </table>
   </td>
@@ -617,12 +632,12 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>RepeatingNotific
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>SampleUI.cs</li>
+<li>Assets/UTNotifications/Sample/SampleUI.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 10 2015 15:40:21 for UTNotifications by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 9 2015 23:24:41 for UTNotifications by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
