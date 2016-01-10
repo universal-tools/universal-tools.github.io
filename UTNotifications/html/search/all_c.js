@@ -1,5 +1,13 @@
 var searchData=
 [
-  ['receivednotification',['ReceivedNotification',['../class_u_t_notifications_1_1_received_notification.html',1,'UTNotifications']]],
-  ['registrator',['Registrator',['../class_demo_server_1_1_registrator.html',1,'DemoServer']]]
+  ['sampleui',['SampleUI',['../class_u_t_notifications_1_1_sample_u_i.html',1,'UTNotifications']]],
+  ['schedulenotification',['ScheduleNotification',['../class_u_t_notifications_1_1_manager.html#a2ee3b7a852cbfa177d70e0f1fc2916f0',1,'UTNotifications.Manager.ScheduleNotification(int triggerInSeconds, string title, string text, int id, IDictionary&lt; string, string &gt; userData=null, string notificationProfile=null)'],['../class_u_t_notifications_1_1_manager.html#a1a475769eec30fb6f875fa07ce0e983c',1,'UTNotifications.Manager.ScheduleNotification(DateTime triggerDateTime, string title, string text, int id, IDictionary&lt; string, string &gt; userData=null, string notificationProfile=null)']]],
+  ['schedulenotificationrepeating',['ScheduleNotificationRepeating',['../class_u_t_notifications_1_1_manager.html#ae08ee5dbfc89f35c346c22ec1421d95b',1,'UTNotifications.Manager.ScheduleNotificationRepeating(int firstTriggerInSeconds, int intervalSeconds, string title, string text, int id, IDictionary&lt; string, string &gt; userData=null, string notificationProfile=null)'],['../class_u_t_notifications_1_1_manager.html#a520858adcdab254efab4d32be8434f1c',1,'UTNotifications.Manager.ScheduleNotificationRepeating(DateTime firstTriggerDateTime, int intervalSeconds, string title, string text, int id, IDictionary&lt; string, string &gt; userData=null, string notificationProfile=null)']]],
+  ['sendregistrationid',['SendRegistrationId',['../class_u_t_notifications_1_1_sample_u_i.html#a52fe06233c5ce5733c0b9af3956e71ad',1,'UTNotifications.SampleUI.SendRegistrationId(string providerName, string registrationId)'],['../class_u_t_notifications_1_1_sample_u_i.html#a328de1464f9512d7b3eae2077f2b88e0',1,'UTNotifications.SampleUI.SendRegistrationId(string userId, string providerName, string registrationId)']]],
+  ['setbadge',['SetBadge',['../class_u_t_notifications_1_1_manager.html#aae30f6a7c2313ab7044fdeb274fb77c4',1,'UTNotifications::Manager']]],
+  ['setnotificationsenabled',['SetNotificationsEnabled',['../class_u_t_notifications_1_1_manager.html#a15099f01700d6abaf17b904ef4d14325',1,'UTNotifications.Manager.SetNotificationsEnabled()'],['../class_u_t_notifications_1_1_sample_u_i.html#aee5fa03c3dea4d3e14c7dd6108fc387a',1,'UTNotifications.SampleUI.SetNotificationsEnabled()']]],
+  ['settings',['Settings',['../class_u_t_notifications_1_1_settings.html',1,'UTNotifications']]],
+  ['showmenu',['ShowMenu',['../class_u_t_notifications_1_1_sample_u_i.html#a9fec2bc9124f14b513876fca452a39dd',1,'UTNotifications::SampleUI']]],
+  ['showreceivednotification',['ShowReceivedNotification',['../class_u_t_notifications_1_1_sample_u_i.html#ad366acb46f3a4fb02ac95bec081db7cc',1,'UTNotifications::SampleUI']]],
+  ['start',['Start',['../class_u_t_notifications_1_1_sample_u_i.html#aa9236a3fa68958630c497e7768ef9959',1,'UTNotifications::SampleUI']]]
 ];
