@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['getbadge',['GetBadge',['../class_u_t_notifications_1_1_manager.html#ab6027520673665482e82ff712f0029ef',1,'UTNotifications::Manager']]]
+  ['hide',['Hide',['../class_u_t_notifications_1_1_u_t_notifications_sample.html#a04cd26e3c0bdd9e0f2de82f5c389286e',1,'UTNotifications::UTNotificationsSample']]],
+  ['hideallnotifications',['HideAllNotifications',['../class_u_t_notifications_1_1_manager.html#ab6c3c0214aa328b12e55fddb5460c92b',1,'UTNotifications::Manager']]],
+  ['hidenotification',['HideNotification',['../class_u_t_notifications_1_1_manager.html#a55c4153d3da7069b488a05bd50303709',1,'UTNotifications::Manager']]]
 ];
