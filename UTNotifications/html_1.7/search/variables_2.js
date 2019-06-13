@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['m_5fwebserveraddress',['m_webServerAddress',['../class_u_t_notifications_1_1_u_t_notifications_sample.html#a38a1549bb464251647c7165a813ad874',1,'UTNotifications::UTNotificationsSample']]]
+  ['notificationprofile',['notificationProfile',['../class_u_t_notifications_1_1_received_notification.html#a417bc18dc62070b32478ec1ae6a5d5d7',1,'UTNotifications::ReceivedNotification']]]
 ];
